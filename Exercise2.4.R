@@ -1,0 +1,6 @@
+install.packages("renv")
+renv:: init()
+install.packages("hadley/emo")
+renv::snapshot()
+emo::ji("heart")
+renv::status()
